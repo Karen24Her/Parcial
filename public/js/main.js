@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+
     // Formulario y tabla de películas
     const movieForm = document.getElementById('movieForm');
     const moviesTable = document.getElementById('moviesTable');
@@ -23,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Actualizar municipios al cambiar de departamento
     departmentSelect.addEventListener('change', () => {
-        municipalitySelect.innerHTML = ''; // Limpiar municipios previos
+        municipalitySelect.innerHTML = ''; // Limpiar municipios 
         const selectedDepartment = departmentSelect.value;
 
         fetch(`/api/municipalities?department=${selectedDepartment}`)
