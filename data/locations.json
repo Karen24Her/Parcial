@@ -1,14 +1,18 @@
 [
   {
-    "department": "Guaviare",
-    "municipality": "Miraflores"
-  },
-  {
     "department": "Boyacá",
     "municipality": "Sogamoso"
   },
   {
     "department": "Atlantico",
     "municipality": "Barranquilla"
+  },
+  {
+    "department": "Cundinamarca",
+    "municipality": "Fusagasugá"
+  },
+  {
+    "department": "Santander",
+    "municipality": "Floridablanca"
   }
 ]
